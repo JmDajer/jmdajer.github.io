@@ -19,7 +19,6 @@
     .tableDiv {
       position: fixed;
       left: 5%;
-      top: 150px;
     }
     table {
       width: 30%;
@@ -28,7 +27,12 @@
     .textDiv {
       position: fixed;
       right: 5%;
-      top: 150px;
+    }
+    .robotImage {
+      bottom: 50px;
+    }
+    .mainDiv {
+      top: 170px;
     }
     </style>
     <meta charset="UTF-8">
@@ -40,30 +44,33 @@
       <h3>213291IADB</h3>
      <h5>Randel Tõnismaa</h5>
     </div>
-    <div class="tableDiv">
-      <h3>Saate/Filmi tabel</h3>
-      <table cellspadding=15>
-        <tr>
-          <th>Saade/Film</th>
-          <th>Ilmus</th>
-          <th>Kirjutas</th>
-        </tr>
-        <tr>
-          <td>Mr. Robot</td>
-          <td>24/06/2015</td>
-          <td>Sam Esmail</td>
-        </tr>
-        <tr>
-          <td>Free guy</td>
-          <td>13/07/2021</td>
-          <td>Matt Lieberman</td>
-        </tr>
-      </table>
+    <div class="mainDiv">
+      <div class="tableDiv">
+        <h3>Saate/Filmi tabel</h3>
+        <table cellspadding=15>
+          <tr>
+            <th>Saade/Film</th>
+            <th>Ilmus</th>
+            <th>Kirjutas</th>
+          </tr>
+          <tr>
+            <td>Mr. Robot</td>
+            <td>24/06/2015</td>
+            <td>Sam Esmail</td>
+          </tr>
+          <tr>
+            <td>Free guy</td>
+            <td>13/07/2021</td>
+            <td>Matt Lieberman</td>
+          </tr>
+        </table>
+      </div>
+      <div class="textDiv">
+        <p>Mu lemmiks saade mida mulle meeldib aastas korra vaadata on Mr.Robot. See saade tekitas huvi psüholoogia ja programeerimise vasstu.</p>
+      </div>
     </div>
-    <div class="textDiv">
-      <p>Mu lemmiks saade mida mulle meeldib aastas korra vaadata on Mr.Robot. See saade tekitas huvi psüholoogia ja programeerimise vasstu.</p>
-    </div>
-    <img src="https://image.tmdb.org/t/p/original/oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg" width=200 height=300>
+    <div class="robotImage">
+      <img src="https://image.tmdb.org/t/p/original/oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg" width=200 height=300>
     <div class="footingDiv">
       <p>Veebileht on kirjutatud HTMLiga, kasutades veidi "style" tagge ning on üleslaetud GitHubi.<br>TalTechi veebileht on <a href="https://taltech.ee/">taltech.ee</a></p>
     </div>
